@@ -1,0 +1,112 @@
+<html>
+ <head>
+  <title>
+   Iridescent Studios - Book Now
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel = "stylesheet" href = "styles.css" type = "text/css" />
+  <script>
+   function toggleMenu() {
+            const nav = document.querySelector('.header nav');
+            nav.classList.toggle('open');
+        }
+  </script>
+ </head>
+ <body>
+    <header class="header">
+    <div class="logo">
+        <i class="fas fa-camera-retro">
+        </i>
+        <span class="iridescent">Iridescent</span> Studios
+    </div>
+   <div class="hamburger" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+   </div>
+   <nav>
+    <a href="Index.html">
+     HOME
+    </a>
+    <a href="about.html">
+     ABOUT US
+    </a>
+    <a href="meet.html">
+     MEET THE TEAM
+    </a>
+    <a href="contact.html">
+     CONTACT US
+    </a>
+   </nav>
+  </header>
+  <div class="container">
+   <h1>
+    BOOK NOW
+   </h1>
+   <div class="form-group">
+    <input placeholder="Enter First Name" type="text"/>
+    <input placeholder="Enter Last Name" type="text"/>
+   </div>
+   <div class="form-group">
+    <input placeholder="Email" type="email"/>
+   </div>
+   <div class="form-group">
+    <input placeholder="Address" type="text"/>
+   </div>
+   <div class="form-group">
+    <input placeholder="Phone" type="tel"/>
+   </div>
+   <div class="radio-group">
+    <label>
+     <input name="shoot" type="radio" value="studio"/>
+     Studio Shoot
+    </label>
+    <label>
+     <input name="shoot" type="radio" value="party"/>
+     Party Shoot
+    </label>
+    <label>
+     <input name="shoot" type="radio" value="commercial"/>
+     Commercial Shoot
+    </label>
+   </div>
+   <div class="buttons">
+    <button type="button">
+     Cancel
+    </button>
+    <button type="submit">
+     Submit
+    </button>
+   </div>
+   <div class="contact-info">
+    <h2>
+     FOR QUERIES, HERE IS OUR NUMBER
+    </h2>
+    <p>
+     Chean Valencia: +63 123 456 7890
+    </p>
+    <p>
+     Justin Ong: +63 987 654 3210
+    </p>
+    <p>
+     Andrew Dizon: +63 999 876 4321
+    </p>
+   </div>
+  </div>
+  <div class="footer">
+    <div class="social-icons">
+     <a href="https://www.instagram.com/">
+      <i class="fab fa-instagram"></i>
+     </a>
+    </div>
+    <p>
+     © 2024 Iridescent Studios. All Rights Reserved.
+    </p>
+    <div class="social-icons">
+     <a href="https://www.facebook.com/">
+      <i class="fab fa-facebook-f"></i>
+     </a>
+    </div>
+   </div>
+   <script src = "script.js"> </script>
+ </body>
+</html>

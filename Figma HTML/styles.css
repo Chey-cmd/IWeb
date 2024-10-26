@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.header .logo span {
+    color: #ff00ff;
+}
+.header nav {
+    display: flex;
+    align-items: center;
+}
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.header .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.header .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 50px 20px 50px;
+}
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.main-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+.main-content .btn {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 50px 20px;
+}
+.services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.services .service-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.services .service {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+}
+.services .service img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.services .service .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer .social-icons a {
+    color: #fff;
+    font-size: 20px;
+}
+.footer .social-icons a.facebook {
+    filter: grayscale(100%);
+}
+.content2 {
+    padding: 20px 20px; /* Reduced padding to move content closer to the top */
+}
+.content2 h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin to move closer to the description */
+}
+.content2 p {
+    font-size: 14px; /* Further reduced font size */
+    line-height: 1.4; /* Adjusted line height */
+    max-width: 800px;
+    margin: 0 auto 20px; /* Reduced margin to move closer to the top */
+}
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.videos video {
+    width: 200px; /* Adjusted width for portrait orientation */
+    height: 400px; /* Adjusted height for portrait orientation */
+}
+.content3 {
+    padding: 50px;
+}
+.content3 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.content3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.team-member {
+    text-align: center;
+}
+.team-member img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+.team-member p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.content4 {
+    padding: 20px;
+    text-align: left;
+}
+.content4 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.content4 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.calendar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.calendar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.container {
+    padding: 50px 20px;
+    text-align: center;
+}
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group input {
+    width: 45%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.form-group input[type="text"], .form-group input[type="email"], .form-group input[type="tel"] {
+    width: 90%;
+}
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.radio-group label {
+    margin: 0 20px;
+    font-size: 14px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background-color: grey;
+}
+.contact-info {
+    margin: 50px 0;
+}
+.contact-info h2 {
+    font-size: 24px;
+}
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+@media (max-width: 1024px) {
+    .header {
+        padding: 20px;
+    }
+    .main-content {
+        padding: 20px;
+    }
+    .services .service {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .header nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px 0;
+        transition: max-height 0.3s ease-in-out;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .header nav a {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .header .hamburger {
+        display: flex;
+    }
+    .header nav.active {
+        display: flex;
+        max-height: 300px;
+    }
+    .main-content {
+        padding: 20px;
+    }
+    .main-content h1 {
+        font-size: 28px;
+    }
+    .main-content p {
+        font-size: 14px;
+    }
+    .services .service {
+        width: 250px;
+        height: 150px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .content2 {
+        text-align: left; /* Align the content to the left for mobile view */
+    }
+    .content2 h1 {
+        font-size: 28px; /* Reduced font size for mobile view */
+    }
+    .content2 p {
+        font-size: 12px; /* Further reduced font size for mobile view */
+    }
+    .videos {
+        flex-direction: column; /* Stack videos vertically */
+        align-items: center;
+    }
+}
